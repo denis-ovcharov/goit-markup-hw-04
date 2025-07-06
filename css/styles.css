@@ -185,9 +185,6 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.benefits .item-title {
-    padding-top: 8px;
-}
 .item-title {
     font-weight: 500;
     font-size: 20px;
@@ -211,6 +208,17 @@ img {
 .benefits-list-item {
     flex-basis: calc((100% - 72px) / 4);
 }
+.benefits-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 
 /* TEAM */
 
@@ -254,6 +262,9 @@ img {
 .icon {
     fill: #4d5ae5;
 }
+.icon:hover {
+fill: #31d0aa;
+}
 /* PORTFOLIO */
 
 .portfolio-list-item .item-text {
@@ -279,9 +290,6 @@ img {
 .bottom {
     background-color: #2e2f42;
     padding: 100px 0 100px;
-}
-.bottom .icon:hover {
-fill: #31d0aa;
 }
 
 .logo-bottom-part {
