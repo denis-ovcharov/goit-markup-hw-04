@@ -343,5 +343,5 @@ img {
 }
 .bottom .container {
     display: flex;
-    align-items: baseline,
+    align-items: baseline;
 }
