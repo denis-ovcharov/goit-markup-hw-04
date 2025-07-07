@@ -318,16 +318,17 @@ img {
     max-width: 264px;
 }
 
-.bottom .container .logo {
+.bottom .logo {
     display: inline-block;
     margin-bottom: 16px;
 }
-.bottom-social-links-title {
+.bottom-social-links-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
 .social-list-bottom {
     display: flex;
@@ -336,4 +337,11 @@ img {
 .bottom .social-link:hover,
 .bottom .social-link:focus {
     background-color: #31d0aa;
+}
+.bottom-logo-container {
+    margin-right: 120px;
+}
+.bottom .container {
+    display: flex;
+    align-items: baseline,
 }
