@@ -67,8 +67,9 @@ img {
     width: 100%;
     border-radius: 2px;
     background-color: #404bbf;
-    color: #404bbf;
-    
+}
+.navigation-list-item:first-child .navigation-list-item-link {
+    color: #404bbf; 
 }
 
 .navigation-list-item-link:hover,
